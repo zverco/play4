@@ -1,0 +1,19 @@
+{
+  "name": "play4",
+  "version": "1.0.0",
+  "description": "Play for",
+  "main": "src/server/app.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zverco/play4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zverco/play4/issues"
+  },
+  "homepage": "https://github.com/zverco/play4#readme"
+}
