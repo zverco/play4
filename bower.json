@@ -1,0 +1,16 @@
+{
+  "name": "play4",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zverco/play4",
+  "authors": [
+    "zverco <ivankarpuzov@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
