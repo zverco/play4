@@ -14,7 +14,12 @@ module.exports = function () {
         }
         next();
     }
-
+    
+    //test from ubunti
+    
+    
+    
+    
     /* Our fall through error logger and errorHandler  */
     function logErrors(err, req, res, next) {
         var status = err.statusCode || 500;
