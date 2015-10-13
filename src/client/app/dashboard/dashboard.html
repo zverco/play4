@@ -39,7 +39,8 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr ng-repeat="p in vm.people">
+                                    <tr data-ng-repeat="p in vm.people">
+										<td>{{p.id}}</td>
                                         <td>{{p.firstName}}</td>
                                         <td>{{p.lastName}}</td>
                                         <td>{{p.age}}</td>

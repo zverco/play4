@@ -42,7 +42,7 @@ gulp.task('vet', function() {
         .pipe($.jshint())
         .pipe($.jshint.reporter('jshint-stylish', {verbose: true}))
         .pipe($.jshint.reporter('fail'))
-        .pipe($.jscs());
+        .pipe($.jscs({disallowMixedSpacesAndTabs: false}));
 });
 
 /**
@@ -503,6 +503,7 @@ function startBrowserSync(isDev, specRunner) {
     var options = {
         proxy: 'localhost:' + port,
         port: 3000,
+		browser: 'Chrome',
         files: isDev ? [
             config.client + '**/*.*',
             '!' + config.less,
